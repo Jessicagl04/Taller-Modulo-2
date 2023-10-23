@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  padding: 20px;
+
+  h1 {
+    color: #333;
+  }
+
+  .formulario {
+    margin-bottom: 20px;
+    input {
+      margin: 5px;
+    }
+
+    .error {
+      color: red;
+    }
+  }
+
+  .citas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .cita {
+      background: #f3f3f3;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+    }
+  }
+}
